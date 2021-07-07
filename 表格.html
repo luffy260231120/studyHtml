@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>表格</title>
+    </head>
+    <body>
+        <table border="1px">
+            <!-- 第一行 -->
+            <tr>
+                <!-- 列 -->
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <!-- 第二行 -->
+            <tr>
+                <!-- 跨列 这个td会从左到右占3个格子 cplspan-->
+                <td colspan="3">5</td>
+                <!-- 垮行 这个td会从上到下占2个格子-->
+                <td rowspan="2">8</td>
+            </tr>
+            <!-- 第三行 -->
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+        </table>
+    </body>
+</html>
